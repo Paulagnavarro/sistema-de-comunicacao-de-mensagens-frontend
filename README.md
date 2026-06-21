@@ -48,7 +48,7 @@ DATABASE_PASSWORD=postgres
 
 DATABASE_NAME=mensageria_db
 
-JWT_SECRET=chave_segura_123
+JWT_SECRET=chave_secreta_super_segura_123
 
 3. **Subir o Banco de Dados (Docker):**
 
