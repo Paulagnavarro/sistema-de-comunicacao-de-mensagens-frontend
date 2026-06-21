@@ -66,6 +66,7 @@ Execute o comando abaixo para gerar as tabelas e popular os usuários iniciais a
 O back-end estará rodando em: http://localhost:3000
 
 6. **Configurar e Iniciar o Front-end:**
+
 Abra um novo terminal e acesse a pasta do front-end:
 - git clone -> https://github.com/Paulagnavarro/sistema-de-comunicacao-de-mensagens-frontend
 - cd sistema-de-comunicacao-de-mensagens-frontend
