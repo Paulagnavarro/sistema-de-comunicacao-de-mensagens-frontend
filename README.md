@@ -58,7 +58,7 @@ Ainda na pasta backend, inicie o container do PostgreSQL:
 4. **Criar a Estrutura do Banco e Dados de Teste (Migrations & Seeds):**
 
 Execute o comando abaixo para gerar as tabelas e popular os usuários iniciais automaticamente:
-- npm run migration:run
+- npm run typeorm migration:run
 
 5. **Iniciar o Back-end:**
 - npm run start:dev
