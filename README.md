@@ -31,12 +31,13 @@ Um MVP funcional de troca de mensagens internas com controle de permissões por 
 ### Passos para rodar a aplicação
 
 1. **Configurar o Back-end:**
-   git clone -> https://github.com/Paulagnavarro/sistema-de-comunicacao-de-mensagens-backend
-   cd sistema-de-comunicacao-de-mensagens-backend
-   npm install
+- git clone -> https://github.com/Paulagnavarro/sistema-de-comunicacao-de-mensagens-backend
+- cd sistema-de-comunicacao-de-mensagens-backend
+- npm install
 
 2. **Configurar as Variáveis de Ambiente (.env):**
 - Crie um arquivo .env na raiz da pasta backend com as seguintes configurações:
+
 DATABASE_HOST=localhost
 DATABASE_PORT=5432
 DATABASE_USER=postgres
@@ -46,22 +47,22 @@ JWT_SECRET=chave_segura_123
 
 3. **Subir o Banco de Dados (Docker):**
 Ainda na pasta backend, inicie o container do PostgreSQL:
-   docker-compose up -d
+- docker-compose up -d
 
 4. **Criar a Estrutura do Banco e Dados de Teste (Migrations & Seeds):**
 Execute o comando abaixo para gerar as tabelas e popular os usuários iniciais automaticamente:
-   npm run migration:run
+- npm run migration:run
 
 5. **Iniciar o Back-end:**
-   npm run start:dev
+- npm run start:dev
 O back-end estará rodando em: http://localhost:3000
 
 6. **Configurar e Iniciar o Front-end:**
 Abra um novo terminal e acesse a pasta do front-end:
-   git clone -> https://github.com/Paulagnavarro/sistema-de-comunicacao-de-mensagens-frontend
-   cd sistema-de-comunicacao-de-mensagens-frontend
-   npm install
-   npm run dev
+- git clone -> https://github.com/Paulagnavarro/sistema-de-comunicacao-de-mensagens-frontend
+- cd sistema-de-comunicacao-de-mensagens-frontend
+- npm install
+- npm run dev
 A aplicação estará disponível no navegador em: http://localhost:3001 (ou na porta indicada no terminal pelo Next.js).
 
 ---
